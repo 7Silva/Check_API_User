@@ -47,7 +47,8 @@ npm install
 ```
 
 ## Extras
-<img src='' width=400px alt='Ilustrator'></img>
+<img src='https://github.com/7Silva/Check_API_User/blob/main/github/imgs/401%20Error.gif' width=400px alt='Ilustrator'></img>
+<img src='https://github.com/7Silva/Check_API_User/blob/main/github/imgs/404%20Error.gif' width=400px alt='Ilustrator'></img>
 
 ## License
 API User Create is released under [the MIT License](LICENSE). Check [LICENSE](LICENSE) file for more information.
