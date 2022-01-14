@@ -2,6 +2,7 @@
 
 import express from 'express';
 import { db } from './structures/db.js';
+import encrypt from './structures/encrypt.js';
 
 const router = express.Router(),
     dirname = import.meta.url.slice(8, import.meta.url.lastIndexOf('/'));
@@ -21,7 +22,7 @@ router.get('/css/style.css', (req, res) => {
 router.post('/', async function(req, res) {
     const user = req.body.user,
         email = req.body.email, 
-        password = req.body.password;
+        password = encrypt(req.body.password);
 
     if (req.body.token == process.env.TOKEN) {
         const select = await db.query(`SELECT * FROM users WHERE user = "${user}" AND email = "${email}"`),
