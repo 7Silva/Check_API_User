@@ -1,5 +1,5 @@
 <div align='start'>
-  <h1>Check API User</h1><p>An API to verify users in your database</p>
+  <h1>Check API User</h1><p>An API to verify users in your database <br> This API is in Pre Release and will have new updates over time.</p>
 </div>
 
 ## Dependencies
